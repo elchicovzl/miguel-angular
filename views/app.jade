@@ -1,0 +1,23 @@
+html
+  head
+    meta(charset="UTF-8")
+    title Test RootStack
+    base(href="/")
+    meta(charset="UTF-8")    
+    meta(name="viewport" content="width=device=width, user-scalable=no")
+
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous")
+    link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type='text/css')
+    link(href="/public/css/mystyle.css" rel="stylesheet" type='text/css')
+
+  body
+    div(ui-view="" style="height:100%")
+
+    script
+      | window.api = !{api};
+    
+    script(src="/public/js/bundle.js")
+    script(src="/public/js/jquery.min.js")
+    script(src="/public/js/bootstrap.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/js/bootstrap-select.min.js")
+    script(src="http://maps.google.com/maps/api/js")

@@ -1,0 +1,29 @@
+#map {
+    height: 100%;
+}
+
+.expectancy .gender {
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.expectancy .gender.male {
+    color: blue;
+}
+
+.expectancy .gender.female {
+    color: pink;
+}
+
+.expectancy .gender.big {
+    font-size: 60px;
+}
+
+.states ul li {
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.box-search {
+    padding-bottom: 20px;
+}

@@ -1,0 +1,62 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Application test for rootstack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "angular": "1.4.7",
+    "angular-bootstrap-show-errors": "2.3.0",
+    "angular-file-upload": "2.2.0",
+    "angular-gravatar": "0.4.1",
+    "angular-messages": "1.4.7",
+    "angular-smart-table": "^2.1.8",
+    "angular-ui-bootstrap": "^0.14.3",
+    "angular-ui-router": "0.2.15",
+    "angular-utils-ui-breadcrumbs": "^0.2.2",
+    "angular-wizard": "^0.9.0",
+    "axios": "^0.13.1",
+    "body-parser": "1.14.1",
+    "bootstrap": "3.3.6",
+    "browserify-middleware": "7.0.0",
+    "cookie-parser": "1.4.0",
+    "express": "4.13.3",
+    "express-less": "0.0.8",
+    "express-session": "1.12.1",
+    "font-awesome": "4.5.0",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "0.5.1",
+    "gulp-install": "0.6.0",
+    "gulp-jade": "1.1.0",
+    "gulp-less": "3.0.5",
+    "gulp-mocha": "2.2.0",
+    "gulp-rename": "1.2.2",
+    "gulp-uglify": "1.5.3",
+    "install": "^0.8.1",
+    "jade": "1.11.0",
+    "jquery": "2.1.4",
+    "lodash": "^4.15.0",
+    "ng-file-upload": "^12.2.3",
+    "ng-typeahead": "^1.0.7",
+    "ngmap": "^1.17.8",
+    "passport": "0.3.0",
+    "passport-local": "1.0.0",
+    "session": "0.1.0",
+    "superagent": "1.6.1",
+    "toastr": "2.1.2"
+  },
+  "devDependencies": {},
+  "config": {
+    "env": "develop",
+    "port": 8000,
+    "serveStatic": true,
+    "api": {
+      "hostname": "http://localhost:3000",
+      "pathPrefix": "/api"
+    }
+  },
+  "author": "Miguel Vizcaino",
+  "license": "ISC"
+}
